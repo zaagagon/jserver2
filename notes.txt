@@ -6,5 +6,6 @@ git branch -M main
 git remote add origin https://github.com/zaagagon/jserver2.git
 git push -u origin main
 
+Creamos el archivo package.json
 - npm run servicio
 - json-server --watch
