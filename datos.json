@@ -1,0 +1,11 @@
+{
+    "estudiantes":[
+        {   "codigo":123,
+            "nombre":"alejandro",
+            "apellido":"gomez"
+        }
+    ],
+    "materias":[
+        
+    ]
+}
