@@ -5,8 +5,14 @@
             "apellido":"gomez"
         }
     ],
-    "materias":[
-        
+    "materias":[{
+        "codigo":"p1",
+        "nombre":"programacion"
+    },{
+        "codigo":"bd1",
+        "nombre":
+    }
+
 
     ]
 }
