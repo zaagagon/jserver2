@@ -11,3 +11,6 @@ Creamos el archivo package.json
 - json-server --watch
 - Install modulo json-server
 - Creata database json
+-"scripts": {
+    "server": "json-server --watch datos.json "
+  },
