@@ -14,4 +14,4 @@ Creamos el archivo package.json
 -"scripts": {
     "server": "json-server --watch datos.json "
   },
-  --
+  - puerto por defecto de json-server 3000
