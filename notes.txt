@@ -9,3 +9,5 @@ git push -u origin main
 Creamos el archivo package.json
 - npm run servicio
 - json-server --watch
+- Install modulo json-server
+- Creata database json
