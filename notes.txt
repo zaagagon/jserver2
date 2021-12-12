@@ -16,4 +16,5 @@ Creamos el archivo package.json
   },
   - puerto por defecto de json-server 3000
   - Review DB no relational
+  - revisar peticiones put and post - patch
 
