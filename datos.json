@@ -4,7 +4,7 @@
             "nombre":"alejandro",
             "apellido":"gomez"
         },
-        {"codigo":1234,"nombre":"Caliche perez","apellido":"Perez"}
+        {"codigo":1234,"nombre":"Caliche perez","apellido":"perez"}
     ],
     "materias":[{
         "codigo":"p1",

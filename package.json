@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "server": "json-server --watch datos.json "
+    "server": "json-server --watch datos.json --port 3004"
   },
   "repository": {
     "type": "git",
