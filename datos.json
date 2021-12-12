@@ -1,19 +1,36 @@
 {
-    "estudiantes":[
-        {   "codigo":123,
-            "nombre":"alejandro",
-            "apellido":"gomez"
-        },
-        {"codigo":1234,"nombre":"Caliche perez","apellido":"perez"}
-    ],
-    "materias":[{
-        "codigo":"p1",
-        "nombre":"programacion"
-    },{
-        "codigo":"bd1",
-        "nombre":"basees de datos"
+  "estudiantes": [
+    {
+      "id": 123,
+      "nombre": "alejandro",
+      "apellido": "gomez "
+    },
+    {
+      "id": 1234,
+      "nombre": "Caliche perez",
+      "apellido": "perez"
     }
-
-
-    ]
+  ],
+  "materias": [
+    {
+      "id": "1",
+      "nombre": "programacion"
+    },
+    {
+      "id": "2",
+      "nombre": "basees de datos"
+    },
+    {
+      "id": "5",
+      "nombre": "programacion"
+    },
+    {
+      "id": "7",
+      "nombre": "programacion"
+    },
+    {
+      "id": "8",
+      "nombre": "programacion"
+    }
+  ]
 }
