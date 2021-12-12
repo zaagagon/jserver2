@@ -18,4 +18,5 @@ Creamos el archivo package.json
   - Review DB no relational
   - revisar peticiones put and post - patch
   - pruebas con dos terminales integradas vscode
+  - permisos de files cambiados
 
