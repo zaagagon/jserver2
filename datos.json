@@ -9,6 +9,15 @@
       "id": 1234,
       "nombre": "Caliche perez",
       "apellido": "perez"
+    },
+    {
+      "id": 5,
+      "nombre": "medusa",
+      "Idmaterias": 1
+    },
+    {
+      "id": "21",
+      "nombre": "programacion"
     }
   ],
   "materias": [
@@ -30,6 +39,10 @@
     },
     {
       "id": "8",
+      "nombre": "programacion"
+    },
+    {
+      "id": "21",
       "nombre": "programacion"
     }
   ]
