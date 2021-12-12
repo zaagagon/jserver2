@@ -3,7 +3,8 @@
         {   "codigo":123,
             "nombre":"alejandro",
             "apellido":"gomez"
-        }
+        },
+        {"codigo":1234,"nombre":"Caliche perez","apellido":"Perez"}
     ],
     "materias":[{
         "codigo":"p1",
