@@ -22,11 +22,11 @@
   ],
   "materias": [
     {
-      "id": "1",
+      "id": 1,
       "nombre": "javascript"
     },
     {
-      "id": "2",
+      "id": 2,
       "nombre": "Bases de datos sql"
     },
     {
