@@ -8,7 +8,8 @@
     {
       "id": 1234,
       "nombre": "Caliche perez",
-      "apellido": "perez"
+      "apellido": "perez",
+      "materiaId":1
     },
     {
       "id": 5,
