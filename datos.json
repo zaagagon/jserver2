@@ -14,11 +14,12 @@
     {
       "id": 5,
       "nombre": "medusa",
-      "materiaId": 1
+      "materiaId": 1,
+      "materiasId":2
     },
     {
       "id": 1,
-      "nombre": "programacion"
+      "nombre": "Luis Chaurra"
     }
   ],
   "materias": [
