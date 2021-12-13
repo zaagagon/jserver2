@@ -20,6 +20,6 @@ Creamos el archivo package.json
   - pruebas con dos terminales integradas vscode
   - permisos de files cambiados
   -correcion consulta json en el navegador:
-  
+  --http://localhost:3007/materias/1/estudiantes--
 
 
