@@ -19,6 +19,7 @@ Creamos el archivo package.json
   - revisar peticiones put and post - patch
   - pruebas con dos terminales integradas vscode
   - permisos de files cambiados
-  -
+  -correcion consulta json en el navegador:
   
+
 
