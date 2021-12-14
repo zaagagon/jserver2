@@ -31,7 +31,8 @@
   "materias": [
     {
       "id": 1,
-      "nombre": "javascript"
+      "nombre": "javascript",
+      "docenteId":1
     },
     {
       "id": 2,
