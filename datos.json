@@ -20,7 +20,8 @@
     },
     {
       "id": 1,
-      "nombre": "Luis Chaurra"
+      "nombre": "Luis",
+      "apellido":"Chaurra"
     }
   ],
   "materias": [
@@ -48,6 +49,12 @@
       "id": "21",
       "nombre": "Sistemas Operativos"
     }
+  ],
+  "Docentes":[
+      {
+          "nombre":"Jaime Benavides",
+          "materiaId":1
+      }
   ]
  
   
