@@ -4,7 +4,7 @@
       "id": 123,
       "nombre": "alejandro",
       "apellido": "gomez ",
-      "materiaId":3
+      "materiaId":21
     },
     {
       "id": 1234,
@@ -15,13 +15,17 @@
     {
       "id": 5,
       "nombre": "medusa",
-      "materiaId": 1
+      "apellido":"olimpo",
+      "materiaId": 2,
+      "docenteId":2
       
     },
     {
       "id": 1,
       "nombre": "Luis",
-      "apellido":"Chaurra"
+      "apellido":"Chaurra",
+      "materiaId": 2,
+      "docenteId":2
     }
   ],
   "materias": [
@@ -31,7 +35,8 @@
     },
     {
       "id": 2,
-      "nombre": "Bases de datos sql"
+      "nombre": "Bases de datos sql",
+      "docenteId":2
     },
     {
       "id": 3,
@@ -47,7 +52,8 @@
     },
     {
       "id": "21",
-      "nombre": "Sistemas Operativos"
+      "nombre": "Sistemas Operativos",
+      "docenteId":1
     }
   ],
   "Docentes":[
@@ -55,6 +61,11 @@
         "id":1,  
         "nombre":"Jaime Benavides",
         "materiaId":1
+      },
+      {
+          "id":2,
+          "nombre":"Ricardo Londoño",
+          "materiaId":2
       }
   ]
  

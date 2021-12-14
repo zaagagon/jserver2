@@ -22,4 +22,7 @@ Creamos el archivo package.json
   -correcion consulta json en el navegador:
   --http://localhost:3007/materias/1/estudiantes--
 
+  -- ejemplo consulta 
+  http://localhost:3009/materias/1/estudiantes/?nombre=medusa
+
 
