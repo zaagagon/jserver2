@@ -3,7 +3,8 @@
     {
       "id": 123,
       "nombre": "alejandro",
-      "apellido": "gomez "
+      "apellido": "gomez ",
+      "materiaId":3
     },
     {
       "id": 1234,
@@ -14,8 +15,8 @@
     {
       "id": 5,
       "nombre": "medusa",
-      "materiaId": 1,
-      "materiasId":2
+      "materiaId": 1
+      
     },
     {
       "id": 1,
