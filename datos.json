@@ -52,8 +52,9 @@
   ],
   "Docentes":[
       {
-          "nombre":"Jaime Benavides",
-          "materiaId":1
+        "id":1,  
+        "nombre":"Jaime Benavides",
+        "materiaId":1
       }
   ]
  
