@@ -25,4 +25,7 @@ Creamos el archivo package.json
   -- ejemplo consulta 
   http://localhost:3009/materias/1/estudiantes/?nombre=medusa
 
+  Revisar relacion de docentes y materias
+  crear consultaas
+
 
