@@ -20,6 +20,12 @@
       "docenteId":2
       
     },
+    { 
+        "id":6,
+        "nombre":"Mauricio",
+        "apellido":"Londoño"
+
+    },
     {
       "id": 1,
       "nombre": "Luis",
