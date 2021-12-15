@@ -54,11 +54,11 @@
       "nombre": "programacion"
     },
     {
-      "id": "3",
+      "id": 5,
       "nombre": "css"
     },
     {
-      "id": "21",
+      "id": 6,
       "nombre": "Sistemas Operativos",
       "docenteId":1
     }
