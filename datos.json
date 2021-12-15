@@ -76,8 +76,9 @@
       },
       {
           "id":3,
-          "nombre":"alfonso cano"
-          
+          "nombre":"alfonso cano",
+          "materiaId":3
+
       }
   ]
  
