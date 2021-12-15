@@ -27,5 +27,6 @@ Creamos el archivo package.json
 
   Revisar relacion de docentes y materias
   crear consultaas
+  Revisando json
 
 
