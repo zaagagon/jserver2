@@ -73,6 +73,11 @@
           "id":2,
           "nombre":"Ricardo Londoño",
           "materiaId":2
+      },
+      {
+          "id":3,
+          "nombre":"alfonso cano"
+          
       }
   ]
  
