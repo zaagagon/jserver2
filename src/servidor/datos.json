@@ -18,7 +18,9 @@
     },
     {
       "id": 3,
-      "nombre": "Rambo I"
+      "nombre": "Rambo I",
+      "proId":2,
+      "gen":1
     }
   ],
   "protagonistas": [
@@ -26,6 +28,11 @@
       "id": 1,
       "nombre": "keanu reaves",
       "nick": "neo"
+    },
+    {
+        "id":2,
+        "nombre":"Silvester Stallone",
+        "nik":"Jhon Rambo"
     }
   ],
   "Genero": [
