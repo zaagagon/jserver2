@@ -2,11 +2,14 @@
     "peliculas":[
         {
             "id":1,
-            "nombre":"matrix inicio"
+            "nombre":"matrix inicio",
+            "protagonistaid":1,
+            "genid":1
         },
         {
             "id":2,
-            "nombre":"matrix revolutions"
+            "nombre":"matrix revolutions",
+            "genid":1
         }
     ],
     "protagonistas":[
@@ -15,6 +18,12 @@
             "nombre":"keanu reaves",
             "nick":"neo"
         
+        }
+    ],
+    "Genero":[
+        {
+            "id":1,
+            "genero":"accion"
         }
     ]
 }
