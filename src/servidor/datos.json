@@ -1,29 +1,37 @@
 {
-    "peliculas":[
-        {
-            "id":1,
-            "nombre":"matrix inicio",
-            "protagonistaid":1,
-            "genid":1
-        },
-        {
-            "id":2,
-            "nombre":"matrix revolutions",
-            "genid":1
-        }
-    ],
-    "protagonistas":[
-        {
-            "id":1,
-            "nombre":"keanu reaves",
-            "nick":"neo"
-        
-        }
-    ],
-    "Genero":[
-        {
-            "id":1,
-            "genero":"accion"
-        }
-    ]
+  "peliculas": [
+    {
+      "id": 1,
+      "nombre": "matrix inicio",
+      "protagonistaid": 1,
+      "genid": 1
+    },
+    {
+      "id": 2,
+      "nombre": "matrix revolutions",
+      "genid": 1
+    },
+    {
+      "id": 4,
+      "nombre": "matrix III",
+      "protagonistaid": 1
+    },
+    {
+      "id": 3,
+      "nombre": "Rambo I"
+    }
+  ],
+  "protagonistas": [
+    {
+      "id": 1,
+      "nombre": "keanu reaves",
+      "nick": "neo"
+    }
+  ],
+  "Genero": [
+    {
+      "id": 1,
+      "genero": "accion"
+    }
+  ]
 }
