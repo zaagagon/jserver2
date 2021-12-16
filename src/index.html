@@ -2,6 +2,7 @@
 <html>
 <head>
 	<meta charset="UTF-8">
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <script>
@@ -15,8 +16,6 @@
 		</div>
 	</section>
 	<script type="text/javascript">
-    
-
 	var objetos = {"Personas":[
 			{"nombre":"ZAG","edad":17},
 			{"nombre":"Binnochi","edad":18}
@@ -26,7 +25,7 @@
    document.getElementById('content').innerHTML=objetos.Personas[0].nombre;
 	/*Declarar un objeto JSON con una funcion en un atributo
 	 notese el uso de "this" que hace referencia a el objeto en sí, es decir a persona*/
-	var persona = {"name":"ZAG code","edad":23,
+	var persona = {"name":"ZAG code "," Edad":23,
 				  "avisar":function(){alert("Hola soy "+this.name+ "mi edad es "+this.edad);}
 				 };
 //llamado de la funcion
