@@ -47,15 +47,19 @@
     },
     {
       "id": 3,
-      "nombre": "html"
+      "nombre": "html",
+      "docenteId":1
+
     },
     {
       "id": 4,
-      "nombre": "programacion poo"
+      "nombre": "programacion poo",
+      "docenteId":3
     },
     {
       "id": 5,
-      "nombre": "css"
+      "nombre": "css",
+      "docenteId":1
     },
     {
       "id": 6,
