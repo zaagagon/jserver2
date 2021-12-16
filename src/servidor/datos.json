@@ -1,0 +1,12 @@
+{
+    "peliculas":[
+        {
+            "id":1,
+            "nombre":"matrix inicio"
+        },
+        {
+            "id":2,
+            "nombre":"matrix revolutions"
+        }
+    ]
+}
