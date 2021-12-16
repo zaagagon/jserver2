@@ -20,9 +20,18 @@
 		{
 			console.log(vengadores[i]);
 		}
+
+		var salida ='';
+		for (var i=0;i<vengadores.length;i++){
+			salida += '<li>'+ vengadores[i].nombre+'</li>';
+		}
+
 		console.log(vengadores[0]);
 
 		document.getElementById('vengadores').innerHTML="Advengers here ";
+
+		document.getElementById('vengadores').innerHTML=salida;
+		document.getElementById('vengadores').innerHTML="borra lo anterior de salida";
 	</script>
 
     <script>
