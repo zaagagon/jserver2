@@ -1,0 +1,3 @@
+npm init -y //creamos el package
+npm i json-server //instalamos el modulo json-server
+datos.json //creamos el documento js
