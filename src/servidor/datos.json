@@ -8,5 +8,13 @@
             "id":2,
             "nombre":"matrix revolutions"
         }
+    ],
+    "protagonistas":[
+        {
+            "id":1,
+            "nombre":"keanu reaves",
+            "nick":"neo"
+        
+        }
     ]
 }
