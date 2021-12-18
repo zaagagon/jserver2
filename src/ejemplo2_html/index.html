@@ -5,14 +5,28 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Json en browser</title>
+    <!--Llamamos nuestra hoja de estilos-->
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <h1>Datos en json</h1>
 
+    <hr>
     <!-- script javascritp-->
     <script>
         //imprimir algo en nuestra pagina html
-        document.writeln('<h1>WELCOME ZAG DESDE JAVASCRIPT</h1>')
+        document.writeln('<h2>WELCOME ZAG DESDE JAVASCRIPT</h2>')
+    </script>
+    <hr>
+
+    <script>
+        var vengadores=[
+            {"nick:":"viudad negra"},
+            {"nick":"soldado del invierno"},
+            {"nick":"Capitan Marvel"}
+        ]
+
+        document.writeln(vengadores.length);
     </script>
 </body>
 </html>
