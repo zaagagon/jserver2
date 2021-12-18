@@ -19,7 +19,7 @@
     </script>
     <hr>
 
-    <script id="vengadores">
+    <script id="vengadores" >
         var vengadores=[
             {"nick:":"viudad negra"},
             {"nick":"soldado del invierno"},
@@ -34,10 +34,17 @@
        /* "policia" 
         "policia"
         "policia"*/
-        document.writeln("Tamaño del ARRAY"+vengadores.length+"<br>");
+        document.writeln("Tamaño del ARRAY Vengadores : "+vengadores.length+"<br>");
         document.writeln("Texto desde javascript"+"<br>"+"probando salto de linea");
-        document.writeln(vengadores.nick[2]);
-        document.writeln(vengadores[1]);
+        
+
+        //acceder al json con for
+        var salida ='';
+        for(i=0;i<vengadores.length;i++);{
+          salida += '<li>'+vengadores[i].nick+'<li>';
+        }
+        //document.writeln(salida);
+        document.getElementById('vengadores').innerHTML=salida;
     </script>
 </body>
 </html>
