@@ -19,15 +19,25 @@
     </script>
     <hr>
 
-    <script>
+    <script id="vengadores">
         var vengadores=[
             {"nick:":"viudad negra"},
             {"nick":"soldado del invierno"},
-            {"nick":"Capitan Marvel"}
+            {"nick":"Capitan Marvel"},
+            {"nick":"Spirdeman"}
         ]
 
+        
+    
+//control D + "" -->funciona sin problema
+// d selecciona el texto que deseo cambiar
+       /* "policia" 
+        "policia"
+        "policia"*/
         document.writeln("Tamaño del ARRAY"+vengadores.length+"<br>");
         document.writeln("Texto desde javascript"+"<br>"+"probando salto de linea");
+        document.writeln(vengadores.nick[2]);
+        document.writeln(vengadores[1]);
     </script>
 </body>
 </html>
