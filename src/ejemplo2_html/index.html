@@ -9,27 +9,26 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <h1>Datos en json</h1>
-    <ul id="titulo"></ul>
-    <ul id="vengadores"></ul>
+  <!--<h1>Datos en json</h1>-->  
+    <ul id="titulo"> </ul>
+    <ul id="advengers">listado</ul>
 
 
-    <hr>
     <!-- script javascritp-->
     <script>
         //imprimir algo en nuestra pagina html
         document.writeln('<h3>WELCOME ZAG DESDE JAVASCRIPT</h3>')
     </script>
-    <hr>
 
     <script >
         var vengadores=[
-            {"nick:":"viuda negra"},
+            {"nick":"viuda negra"},
             {"nick":"soldado del invierno"},
+            {"nick":"Iron man"},
             {"nick":"Capitan Marvel"},
             {"nick":"Spirdeman"},
             {"nick":"Hulk"}
-        ]
+        ];
 
         
     
@@ -38,22 +37,25 @@
        /* "policia" 
         "policia"
         "policia"*/
-        document.writeln("Tamaño del ARRAY Vengadores : "+vengadores.length+"<br>");
-        document.writeln("Texto desde javascript"+"<br>"+"probando salto de linea");
+        document.writeln("Tamaño del ARRAY Vengadores : "+vengadores.length);
+        document.writeln("Texto desde javascript"+"probando salto de linea"+'<br>');
         //podemos imprimir el valor del array para el primer objeto
-        document.writeln("<br>"+vengadores[1].nick);
+      //  document.write(vengadores[1].nick)+'<br>';
         
 
         //acceder al json con for
-        var salida ='';
-        for(var i=0;i<2;i++){
-          salida += '<li>'+vengadores[i].nick+'<li>';
+       var salida="";
+        for(var i=0;i<vengadores.length;i++){
+     //salida+="<li>"+vengadores[i].nick+"<li>";
+           //
+           
+           document.write('<br>'+vengadores[i].nick);
         }
         //document.writeln(salida);
         //document.getElementById('vengadores').innerHTML='Vengadores vienen aqui';
         //relacionado con el id del tag ul para poder visualizar el texto en html
-        document.getElementById('titulo').innerHTML='<h2>Vengadores vienen aqui</h2>';
-        document.getElementById('vengadores').innerHTML=salida;
+       //document.getElementById('titulo').innerHTML='<h2>Vengadores vienen aqui</h2>';
+        document.getElementById('advengers').innerHTML=salida;
     </script>
 </body>
 </html>
