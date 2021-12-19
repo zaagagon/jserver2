@@ -11,7 +11,10 @@
 <body>
   <!--<h1>Datos en json</h1>-->  
     <ul id="titulo"> </ul>
-    <ul id="advengers">listado</ul>
+
+        <ul id="advengers" style="margin-bottom:0">listado json</ul>
+  
+   
 
 
     <!-- script javascritp-->
@@ -44,12 +47,13 @@
         
 
         //acceder al json con for
-       var salida="";
+       var salida='';
         for(var i=0;i<vengadores.length;i++){
-     //salida+="<li>"+vengadores[i].nick+"<li>";
+     salida+="<li value= [i] white-space: nowrap >"+vengadores[i].nick+"<li>";
+       // document.writeln('<h1><li>hola</li></h1>');
            //
            
-           document.write('<br>'+vengadores[i].nick);
+           //document.write('<br>'+vengadores[i].nick);
         }
         //document.writeln(salida);
         //document.getElementById('vengadores').innerHTML='Vengadores vienen aqui';
