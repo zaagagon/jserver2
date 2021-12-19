@@ -12,7 +12,7 @@
   <!--<h1>Datos en json</h1>-->  
     <ul id="titulo"> </ul>
 
-        <ul id="advengers" style="margin-bottom:0">listado json</ul>
+        <ol id="advengers" style="margin-bottom:0">listado json</ol>
   
    
 
@@ -49,7 +49,9 @@
         //acceder al json con for
        var salida='';
         for(var i=0;i<vengadores.length;i++){
-     salida+="<li value= [i] white-space: nowrap >"+vengadores[i].nick+"<li>";
+            //solucionado problema de saltos de linea en la lista desordenada con inline en css
+     salida+="<li value= [i] >"+vengadores[i].nick+'<br>'+"</li>";
+      
        // document.writeln('<h1><li>hola</li></h1>');
            //
            

@@ -10,6 +10,9 @@ h3{
     color: brown;
 }
 li{
-  display: inline-block;
-    white-space: nowrap;
+    /*soluciona el problema de saltos de linea en listas ordenadas de hmtl5*/
+  display: inline;
+ /* display: inline-block;*/
+
+   /* white-space: nowrap;*/
 }
