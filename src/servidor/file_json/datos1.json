@@ -1,9 +1,10 @@
 {
-    "vendadores":[
+    "vengadores":[
         {
         "nombre":"peter parker"
 
     },
-    {"nombre":"Dr Strage"}
+    {"nombre":"Dr Strage"},
+    {"nombre":"mj"}
 ]
 }

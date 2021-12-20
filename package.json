@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "server": "json-server --watch datos.json --port 3009",
-    "server2":"json-server --watch src/servidor/file_json/datos1.json"
+    "server2":"json-server --watch src/servidor/file_json/datos1.json --port 3011"
   },
   "repository": {
     "type": "git",
