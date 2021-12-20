@@ -4,7 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "server": "json-server --watch datos.json"
+    "server": "json-server --watch src/servidor/datos1.json "
+  
   },
   "keywords": [],
   "author": "",
