@@ -9,7 +9,7 @@
 </head>
 <body>
     <h1>javascript y json</h1>
-    <ul id="milista" Lista desordenada></ul>
+    <ul id="milista" >Lista desordenada</ul>
     <script>
         //script 1
        document.writeln("Aprendiendo Json"+'<br>');//usamos br para salto de linea
@@ -30,12 +30,13 @@
         document.write(multiverso[1].nombre+'<br>');//debe mostrar en hmtl el objeto con indice 1
         
         //recorremos el arreglo multiverso
+        var salida ='';
   for(i=0;i<multiverso.length;i++){
-           document.write(multiverso[i].nombre+'<br>');
+          salida+= '<li>'+multiverso[i].nombre+'</li>';
         }
         //script dos
 
-        document.getElementById('milista').innerHTML="lista viene aqui";
+        document.getElementById('milista').innerHTML=salida;
     </script>
 </body>
 </html>
