@@ -27,8 +27,13 @@
         ]
         //podemos imprimir tamaño del arreglo multiverso
         document.write("Tamaño array multiverso : "+multiverso.length);
-        document.write(multiverso[1].nombre);//debe mostrar en hmtl el objeto con indice 1
-         //script dos
+        document.write(multiverso[1].nombre+'<br>');//debe mostrar en hmtl el objeto con indice 1
+        
+        //recorremos el arreglo multiverso
+  for(i=0;i<multiverso.length;i++){
+           document.write(multiverso[i].nombre+'<br>');
+        }
+        //script dos
 
         document.getElementById('milista').innerHTML="lista viene aqui";
     </script>
