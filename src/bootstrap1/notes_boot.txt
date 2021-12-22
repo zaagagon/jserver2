@@ -5,3 +5,5 @@ empezamos a practicar las clases de bootstrap
 
 
 list-group
+list-group-item
+list-group-item-primary
