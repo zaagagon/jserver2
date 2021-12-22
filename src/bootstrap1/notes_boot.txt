@@ -4,6 +4,6 @@ instalamos los scritps arriba de nuestro script de body
 empezamos a practicar las clases de bootstrap
 
 
-list-group
-list-group-item
-list-group-item-primary
+list-group clase para dar forma
+list-group-item : cuadro a la lista
+list-group-item-primary : color a clase de la lista
