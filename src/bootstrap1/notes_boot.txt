@@ -1,0 +1,7 @@
+instalamos cdn bootstrap en el head
+instalamos cdn script en  body
+instalamos los scritps arriba de nuestro script de body
+empezamos a practicar las clases de bootstrap
+
+
+list-group
