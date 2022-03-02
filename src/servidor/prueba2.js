@@ -8,7 +8,7 @@ var nombre = {
     nick:"wanda",
     email:"zag@email.com",
     ciudad :"miami",
-    pais : "USA"
+    pais : "USA",
     
 }
 //variables en javascript
