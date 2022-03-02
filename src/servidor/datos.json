@@ -39,6 +39,7 @@
     {
       "id": 1,
       "genero": "accion"
-    }
+    },
+    {"id":2,"genero":"comedia"}
   ]
 }
