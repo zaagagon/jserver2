@@ -6,7 +6,8 @@ var nombre = {
     //variables distintas para no reescribir
     name : "zag",
     nick:"wanda",
-    email:"zag@email.com"
+    email:"zag@email.com",
+    ciudad :"miami"
     
 }
 //variables en javascript
