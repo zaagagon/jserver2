@@ -1,5 +1,9 @@
 //comentarios
 var nombre = {
-    name : "zag"
+    name : "zag",
+    
 }
-console.log(nombre);
+var a = 6;
+var b = 7;
+var suma = a+b;
+console.log(nombre,"resultado suma"+suma);
