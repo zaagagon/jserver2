@@ -1,0 +1,10 @@
+var usuario = {
+    nombre: 'Solvetic Developer',
+    email: 'solvetic@xxxx.com',
+    edad: 36,
+    fechaRegistro: new Date(),
+    direccion: {
+                   ciudad: 'Madrid',
+                   pais: 'Spain' }
+}
+console.log(usuario);
