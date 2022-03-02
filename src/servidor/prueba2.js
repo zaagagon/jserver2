@@ -9,7 +9,7 @@ var nombre = {
     email:"zag@email.com",
     ciudad :"miami",
     pais : "USA",
-    
+    ,
 }
 //variables en javascript
 
