@@ -11,4 +11,5 @@ var nombre = {
 var a = 6;
 var b = 7;
 var suma = a+b;
+//concatena con +
 console.log(nombre,"resultado suma"+suma);
