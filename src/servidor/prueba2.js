@@ -3,7 +3,9 @@
 
 //comentarios
 var nombre = {
+    //variables distintas para no reescribir
     name : "zag",
+    nick:"wanda",
     
 }
 //variables en javascript
@@ -13,4 +15,4 @@ var b = 7;
 var suma = a+b;
 //concatena con +
 //variables con coma
-console.log(nombre,"resultado suma"+suma);
+console.log(nombre," ","resultado suma"+suma);
