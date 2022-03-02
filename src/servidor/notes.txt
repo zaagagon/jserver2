@@ -6,3 +6,4 @@ Es posible mostrar el contenido del json en el navegador
 creamos una id para el tag de li
 llamamos ese id con document.getelementbyid
 creamos una variable para salida del recorrido del for
+//revisar
