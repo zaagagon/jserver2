@@ -1,4 +1,5 @@
 //ejecucio node js
+//node nombrearchivo.js
 
 //comentarios
 var nombre = {
