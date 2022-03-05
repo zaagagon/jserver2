@@ -10,6 +10,6 @@ function resta(r1,r2){
 var a = "Bienvendo"
 console.log(a + "hola zag");
 console.log("suma de dos numeros :"+suma(2,3));
-console.log("digite su nombre");
-let nombre
+let nombre =console.log("digite su nombre");
+//let nombre
 console.log("hola " + nombre);
