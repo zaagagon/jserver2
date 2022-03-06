@@ -3,7 +3,8 @@ var saludar = function (nombre) {
     
     return 'Hola ' + nombre;
   };
-  console.log('\033[2J'); 
+  //limpiar pantalla al ejecutar
+  console.clear();
   console.log( saludar('zag') ); //Muestra en consola Hola ZAG
   
 
