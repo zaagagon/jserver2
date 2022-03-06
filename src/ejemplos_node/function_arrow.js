@@ -14,4 +14,16 @@ console.log(saludo("manpower"));
 
 var mostrarFecha = () => new Date().toLocaleDateString()
 console.log(mostrarFecha());
-// 1/5/2019
+// 3/5/2022
+
+//funcion sumar 
+function calcular(operacion, numero1, numero2) {
+    return operacion(numero1, numero2);
+  }
+
+var c = calcular((numero1, numero2) => numero1 + numero2, 6, 7);
+console.log(c);
+//suma dos numeros funcion flecha
+
+let suma = (x1,x2)=>x1+x2;
+console.log(suma(4,3));
