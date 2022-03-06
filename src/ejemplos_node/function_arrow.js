@@ -10,3 +10,8 @@ var saludar = function (nombre) {
   //function arrow
 let saludo = nombre => `hola  ${nombre}`;
 console.log(saludo("manpower"));
+//funcion flecha que muestra la fecha
+
+var mostrarFecha = () => new Date().toLocaleDateString()
+console.log(mostrarFecha());
+// 1/5/2019
