@@ -27,9 +27,13 @@ scope_local(); // true
 console.log(nombre); // soyEstudiante is not defined
 //solucion
 //Declarar la variable de manera global
+
 //arreglo unidimiensional
-const nombres = ["lio","lolo","pizza"];
+const nombres = ["lio","lolo","pizza","roca"];
 //posicion 
 console.log(nombres[0]);
 //mostrar tamaño del arreglo
 console.log(nombres.length);
+for(a=1;a<nombres.length;a++){
+    console.log(nombres[a]);
+}
