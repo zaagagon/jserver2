@@ -27,3 +27,7 @@ scope_local(); // true
 console.log(nombre); // soyEstudiante is not defined
 //solucion
 //Declarar la variable de manera global
+//arreglo unidimiensional
+const nombres = ["lio","lolo"];
+//posicion 
+console.log(nombres[0]);
