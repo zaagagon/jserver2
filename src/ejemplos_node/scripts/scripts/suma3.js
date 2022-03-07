@@ -17,6 +17,7 @@ console.log(add(7,7));
 //scope global
 const nombre = true;
 //scope local
+//
 function scope_local() {
 	//const nombre = true;
 	console.log(nombre);
