@@ -35,5 +35,5 @@ console.log(nombres[0]);
 //mostrar tamaño del arreglo
 console.log(nombres.length);
 for(a=1;a<nombres.length;a++){
-    console.log(nombres[a]);
+    console.log("lista de elementos : " + +nombres[a]);
 }
