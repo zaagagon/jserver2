@@ -11,3 +11,6 @@ console.log("Prueba zag");
 console.log("Resultado suma : " + sumar(4,5));
 var prueba = (n1,n2)=>sumar(7,7);
 console.log(parseInt (prueba));
+//function arrow
+var add =(x,y)=>x+y;
+console.log(add(7,7));
