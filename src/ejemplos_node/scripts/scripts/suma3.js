@@ -34,6 +34,7 @@ const nombres = ["lio","lolo","pizza","roca"];
 console.log(nombres[0]);
 //mostrar tamaño del arreglo
 console.log(nombres.length);
+console.log("lelmentos lista :");
 for(a=1;a<nombres.length;a++){
-    console.log("lista de elementos : " + +nombres[a]);
+    console.log( '\n'+nombres[a]);
 }
