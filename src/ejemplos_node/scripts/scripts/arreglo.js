@@ -1,4 +1,6 @@
 //
 console.clear();
 //otra manera de recorrer el arreglo
-["pilas","mouse","key"].forEach((e,i)=>console.log("i= ",i,"list =",e));
+let list=["pilas","mouse","key"];
+list.forEach((e,i)=>console.log("i= ",i,"list =",e,"tamaño del array :",list.length));
+console.log
