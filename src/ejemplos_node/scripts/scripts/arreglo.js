@@ -10,3 +10,6 @@ console.log("tamaño del array list : ",list.length)
 
 //other form
 list.forEach((e)=>console.log(e));
+//
+list.forEach((i)=>console.log(i));
+
