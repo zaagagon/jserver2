@@ -7,3 +7,6 @@ let list=["pilas","mouse","key"];
 list.forEach((e,i)=>console.log("i= ",i,"list =",e));
 
 console.log("tamaño del array list : ",list.length)
+
+//other form
+list.forEach((e)=>console.log(e));
